@@ -1,0 +1,232 @@
+button {
+    border: none;
+    background: none;
+    appearance: none;
+  }
+
+  *{
+    margin: 8 10px;
+  }
+
+
+/* 네비게이션 상단 */
+.top {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+
+    border-bottom: 1px solid rgb(214, 214, 214);
+    margin-bottom: 20px;
+    align-items:center;
+
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    align-items:center;
+}
+
+#num{
+    background-color: red;
+    width: 24px;
+    height: 18px;
+    font-size: 11px;
+    border-radius: 14px;
+    text-align: center;
+    color: white;
+    margin-left: 6px;
+    line-height: 18px;
+    
+    
+}
+
+
+.icon-bar button{
+    border: none;
+    background: none;
+    margin: 0 2px;
+    
+}
+
+.icon-bar{
+    text-align: right;
+}
+
+.icon-bar i{
+    font-size: 24px;
+}
+
+.icon-bar .fa-regular{
+    font-size: 25px;
+    margin-right: 4px;
+}
+
+
+
+
+/* 프로필 영역 */
+.profile {
+    display: flex;
+    width: 100vw;
+    height: 110px;
+    margin-top: 20px;
+    margin: 0 10px;
+}
+
+.profile-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+
+/* 팔로우,팔로워 정보 영역 */
+.state-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.state{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.state span{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+/* 소개글 */
+.introduction{
+    width: 100vw;
+    margin: 0 12px;
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.title{
+    font-weight: bold;
+    color: black;
+}
+
+
+/* 버튼 */
+.action-btn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 9fr 1fr; 
+}
+
+#setting-btn {
+    /* width: 85vw; */
+    height: 38px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 3px;
+    
+}
+
+.icon-btn{
+    margin-left: 5px;
+    background-color: rgb(66, 158, 255);
+    border-radius: 3px;
+    color: white;
+    justify-items: end;
+    
+    
+}
+
+
+
+
+
+
+
+/* 하이라이트 스토리 영역 */
+.hilight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 7fr;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.hil-01{
+    margin-right: 14px;
+}
+
+.hil-01 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.hil-02 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid white 1px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+/* 아이콘박스 */
+.icon-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+
+.icon-01{
+    color: rgb(13, 88, 250);
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin: 0 1px;
+}
+
+
+
+/* 게시물 */
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: -1px;
+}
+
+.img-box {
+    height: auto;
+    margin: 1px;
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
